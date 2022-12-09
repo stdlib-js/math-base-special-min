@@ -60,7 +60,7 @@ The [branches.md][branches-url] file summarizes the available branches and displ
 var min = require( '@stdlib/math-base-special-min' );
 ```
 
-#### min( \[x\[, y\[, ...args]]] )
+#### min( x, y )
 
 Returns the minimum value.
 
@@ -70,9 +70,6 @@ var v = min( 4.2, 3.14 );
 
 v = min( +0.0, -0.0 );
 // returns -0.0
-
-v = min( 4.2, 3.14, -1.0, 6.8 );
-// returns -1.0
 ```
 
 If any argument is `NaN`, the function returns `NaN`.
@@ -85,13 +82,6 @@ v = min( NaN, 3.14 );
 // returns NaN
 ```
 
-If not provided any arguments, the function returns `+infinity`.
-
-```javascript
-var v = min();
-// returns Infinity
-```
-
 </section>
 
 <!-- /.usage -->
@@ -99,10 +89,6 @@ var v = min();
 <!-- Package usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="notes">
-
-## Notes
-
--   When an empty set is considered a subset of the extended reals (all real numbers, including positive and negative infinity), positive infinity is the greatest lower bound. Similar to zero being the identity element for the sum of an empty set and to one being the identity element for the product of an empty set, positive infinity is the identity element for the minimum, and thus, `min() = +infinity`.
 
 </section>
 
