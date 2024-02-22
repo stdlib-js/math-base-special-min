@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import min from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-min@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-min/tags). For example,
+
+```javascript
 import min from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-min@v0.2.1-deno/mod.js';
 ```
 
@@ -99,7 +104,7 @@ v = min( NaN, 3.14 );
 
 ```javascript
 import minstd from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-minstd-shuffle@deno/mod.js';
-import min from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-min@v0.2.1-deno/mod.js';
+import min from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-min@deno/mod.js';
 
 var x;
 var y;
