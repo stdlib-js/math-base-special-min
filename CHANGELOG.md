@@ -84,11 +84,10 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Bhansali
 -   Philipp Burckhardt
--   Pranav
 -   Pranav Goswami
 
 </section>
