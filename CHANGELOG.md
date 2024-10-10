@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-10-10)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`4a94497`](https://github.com/stdlib-js/stdlib/commit/4a94497c4e429430d5409d65ef55c0077ca1edbd) - **docs:** update function description in `math/base/special/min` [(#2998)](https://github.com/stdlib-js/stdlib/pull/2998) _(by Gunj Joshi)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Gunj Joshi
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2024-07-28)
